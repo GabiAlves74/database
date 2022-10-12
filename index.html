@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Configuração do Firebase do seu aplicativo da web
+      //adicione aqui
+      const firebaseConfig = {
+  apiKey: "AIzaSyChV0p5InztHjG91m0ofJUq8V3rWS9lwf4",
+  authDomain: "mvdebola.firebaseapp.com",
+  databaseURL: "https://mvdebola-default-rtdb.firebaseio.com",
+  projectId: "mvdebola",
+  storageBucket: "mvdebola.appspot.com",
+  messagingSenderId: "1001085815504",
+  appId: "1:1001085815504:web:6c6a5b3d52c2319907ecd5"
+};
+      // Inicializar Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
